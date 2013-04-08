@@ -145,14 +145,15 @@ hr {
 
 p.baerte {
   padding-left: 120px;
-  background: url(/images/baerte.png) 0 8px no-repeat;
+  background: url(/images/baerte.png) 0 10px no-repeat;
 }
 
 footer {
   width:270px;
   float:left;
   position:fixed;
-  bottom:50px;
+  bottom:20px;
+  border-top: 1px solid #ccc;
 }
 
 @media print, screen and (max-width: 960px) {
