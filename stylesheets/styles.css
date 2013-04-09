@@ -99,6 +99,10 @@ header {
   float:left;
 }
 
+header h1 a {
+  color: #222;
+}
+
 header h4 {
   color: #999;
   border-bottom: 1px solid #ccc;
@@ -152,6 +156,10 @@ footer {
   clear:both;
   width:860px;
   border-top: 1px solid #ccc;
+}
+
+footer, footer a {
+  font-weight: 300;
 }
 
 @media print, screen and (max-width: 960px) {
