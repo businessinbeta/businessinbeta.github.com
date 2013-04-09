@@ -1,5 +1,5 @@
 body {
-  padding: 50px;
+  padding-top: 50px;
   font-size: 16px;
   line-height: 1.5;
   color: #777;
@@ -33,7 +33,7 @@ h3, h4, h5, h6 {
 
 a {
   color:#39c;
-  font-weight:400;
+  font-weight:700;
   text-decoration:none;
 }
 
@@ -95,9 +95,8 @@ img {
 }
 
 header {
-  width:270px;
+  width:300px;
   float:left;
-  position:fixed;
 }
 
 header h4 {
@@ -149,10 +148,9 @@ p.baerte {
 }
 
 footer {
-  width:270px;
-  float:left;
-  position:fixed;
-  bottom:20px;
+  float:none;
+  clear:both;
+  width:860px;
   border-top: 1px solid #ccc;
 }
 
