@@ -105,14 +105,20 @@ header h1 a {
 
 header h4 {
   color: #999;
-  border-bottom: 1px solid #ccc;
   margin-top: 2em;
   margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #ccc;
 }
 
 header ul {
   list-style-type: none;
   padding: 0;
+}
+
+header li {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 strong {
